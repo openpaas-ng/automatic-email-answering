@@ -1,0 +1,11 @@
+DUCKLING_URL = http://127.0.0.1:8000/parse
+DUCKLING_DIRECTORY = /home/zsellami/Software/duckling
+ONTOLOGY_PATH = /home/zsellami/dev/git/intentDetection/intent6.owl
+SERVICE_URL = http://localhost/rest/
+SERVICE_PORT = 9991
+TMP_DIRECTORY = /home/zsellami/tmp
+TALISMANE_DIR = /home/zsellami/Téléchargements/talismane-distribution-5.1.2-bin
+TALISMANE_HOST_NAME = localhost
+TALISMANE_PORT_NUMBER = 7272
+TALISMANE_JAR_NAME = talismane-core-5.1.2.jar
+TALISMANE_CONF_NAME = talismane-fr-5.0.4.conf

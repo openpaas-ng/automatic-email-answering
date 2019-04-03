@@ -1,0 +1,11 @@
+DUCKLING_URL = http://0.0.0.0:8000/parse
+DUCKLING_DIRECTORY = /duckling
+ONTOLOGY_PATH = /automatic-email-answering/bin/intent6.owl
+SERVICE_URL = http://0.0.0.0/rest/
+SERVICE_PORT = 9991
+TMP_DIRECTORY = /automatic-email-answering/bin/tmp
+TALISMANE_DIR = /automatic-email-answering/talismane-distribution-5.1.2-bin
+TALISMANE_HOST_NAME = localhost
+TALISMANE_PORT_NUMBER = 7272
+TALISMANE_JAR_NAME = talismane-core-5.1.2.jar
+TALISMANE_CONF_NAME = talismane-fr-5.0.4.conf

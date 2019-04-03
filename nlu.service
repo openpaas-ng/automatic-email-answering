@@ -1,0 +1,17 @@
+[Unit]
+Description=Start node-client
+Requires=network.target
+After=local-fs.target remote-fs.target network.target
+
+[Service]
+Restart=always
+RestartSec=1s
+WorkingDirectory=/data/nlu/bin
+ExecStart=java -jar -Xmx4G -Xms4G /data/nlu/bin/intentdetection.jar /data/nlu/bin/CONFIG
+
+#StandardOutput=/data/nlu/tmp/nlu.log
+#StandardError=/data/nlu/tmp/nlu.log
+User=nlu
+Group=nlu
+[Install]
+WantedBy=multi-user.target

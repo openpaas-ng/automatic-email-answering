@@ -1,0 +1,21 @@
+^>* *Le .+, .+ a (é|Ã©|.{0,5})crit.{0,5}$
+^Le .+, .+ a (é|Ã©|.{0,5})crit.{0,5}$
+^>* *On .+, .+ wrote.{0,5}$
+^.*, .+ a (é|Ã©|.{0,5})crit.{0,5}$
+^.*On .+, .+ wrote.{0,5}$
+^On .+, .+ wrote.{0,5}$
+^>* *Le .+, .+ de [\w.]+@[\w]+.\w+.{0,5}$
+^Le .+, .+ de [\w.]+@[\w]+.\w+.{0,5}$
+^>* *On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
+^.*On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
+^On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
+^\d\d.+ \d\d:\d\d [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>:
+^De : [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>
+^From: [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>
+(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi),.+,.+ from [\w\d\W]+? [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+ *:
+-------- Message original --------
+-------- Courriel original --------
+-------- Forwarded Message --------
+------- Message transf(é|Ã©|.{0,5})r(é|Ã©|.{0,5}) -------
+-------- Message transf(é|Ã©|.{0,5})r(é|Ã©|.{0,5}) --------
+^\*+
