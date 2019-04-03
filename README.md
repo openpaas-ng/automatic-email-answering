@@ -10,7 +10,7 @@ The ontology is available on the file intent6.owl. To show the conent of the ont
 
 ## Building the image
 ```
-wget https://ci.linagora.com/zsellami/automatic-email-answering/raw/master/Dockerfile
+wget https://raw.githubusercontent.com/openpaas-ng/automatic-email-answering/master/Dockerfile
 
 docker build -t demo:smartreply .
 ```
