@@ -3689,7 +3689,7 @@ Quels sont les créneaux qui vous conviendraient ?</AnnotationProperty:text>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Intent_Share_Attachement/Share_Document"/>
         <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/AnnotationProperty/frame_element"/>
         <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent#shared_subject"/>
-        <rdfs:comment rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/Mandatory"/>
+        <AnnotationProperty:type rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/Mandatory"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Intent_Share_Attachement/Share_Document"/>
