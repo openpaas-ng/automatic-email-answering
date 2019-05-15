@@ -40,9 +40,8 @@ public class WebServiceMain {
     
     
     public static void main(String[] args) {
-    	//curl -u linagora:aroganil -X POST http://datascience.open-paas.org/rest/detectintent/parsetext -F "file=@/home/zsellami/email.txt"
 
-      	if(args.length ==1) {
+    if(args.length ==1) {
     		Thread app = new Thread() {
     			public void run() {
     			
