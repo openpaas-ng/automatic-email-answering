@@ -1955,6 +1955,7 @@ Quels sont les créneaux qui vous conviendraient ?</AnnotationProperty:text>
         <AnnotationProperty:lexical_unit rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">nouveau lieu</AnnotationProperty:lexical_unit>
         <AnnotationProperty:lexical_unit rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">nouvelle date</AnnotationProperty:lexical_unit>
         <AnnotationProperty:lexical_unit rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">plus (tard|tôt)</AnnotationProperty:lexical_unit>
+        <AnnotationProperty:lexical_unit rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">pouvons déplacer</AnnotationProperty:lexical_unit>
         <AnnotationProperty:lexical_unit rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/NOUN">retard</AnnotationProperty:lexical_unit>
         <rdfs:label xml:lang="en">Notification change appointment</rdfs:label>
         <rdfs:label xml:lang="fr">Notification de modification d&apos;un rendez-vous</rdfs:label>
@@ -2059,6 +2060,12 @@ Quels sont les créneaux qui vous conviendraient ?</AnnotationProperty:text>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Appointment_Intent/Notification_Intent/Notification_Change_Appointment"/>
         <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/AnnotationProperty/lexical_unit"/>
         <owl:annotatedTarget rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">plus (tard|tôt)</owl:annotatedTarget>
+        <AnnotationProperty:type rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/Mandatory"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Appointment_Intent/Notification_Intent/Notification_Change_Appointment"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/AnnotationProperty/lexical_unit"/>
+        <owl:annotatedTarget rdf:datatype="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/EXPR">pouvons déplacer</owl:annotatedTarget>
         <AnnotationProperty:type rdf:resource="http://www.semanticweb.org/linagora/ontologies/2018/1/Intent/Datatype/Mandatory"/>
     </owl:Axiom>
     <owl:Axiom>
