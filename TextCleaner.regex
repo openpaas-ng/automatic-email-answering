@@ -6,16 +6,27 @@
 ^On .+, .+ wrote.{0,5}$
 ^>* *Le .+, .+ de [\w.]+@[\w]+.\w+.{0,5}$
 ^Le .+, .+ de [\w.]+@[\w]+.\w+.{0,5}$
-^>* *On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
-^.*On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
-^On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}$
+^>* *On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}.*$
+^.*On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}.*$
+^On .+, .+ from [\w.]+@[\w]+.\w+.{0,5}.*$
 ^\d\d.+ \d\d:\d\d [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>:
 ^De : [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>
 ^From: [\w\d\W]+? <[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+>
-(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi),.+,.+ from [\w\d\W]+? [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+ *:
--------- Message original --------
--------- Courriel original --------
--------- Forwarded Message --------
-------- Message transf(é|Ã©|.{0,5})r(é|Ã©|.{0,5}) -------
--------- Message transf(é|Ã©|.{0,5})r(é|Ã©|.{0,5}) --------
+(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sun\.|Mon\.|Tue\.|Wed\.|Thu\.|Fri\.|Sat\.|Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi),.+,.+ from [\w\d\W]+? [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+ *:
+(-+ *[a-zA-Z]+ (d'origine|original|transf(é|Ã©|.{0,5})r(é|Ã©|.{0,5})) *-+|-+ *(forwarded|original) [a-zA-Z]+ *-+)
 ^\*+
+^-+$
+^bien [aà] (vous|toi)[.]{0,3}\n
+^cdl?t[.]{0,3}\n
+^salutations[.]{0,3}\n
+^meilleurs salutations[.]{0,3}\n
+^bon(?:ne)? (?:soir[ée]e|journ[ée]e|apr[èe]s-midi|courage)[.]{0,3}\n
+^bon(?:ne)? r[ée]ception[.]{0,3}\n
+^bien cordialement[.]{0,3}\n
+^cordialement[.]{0,3}\n
+^amicalement[.]{0,3}\n
+^regards[.]{0,3}\n
+^best regards[.]{0,3}\n
+^merci[.]{0,3}\n
+^merci beaucoup[.]{0,3}\n
+^cheers[.]{0,3}\n
